@@ -7,11 +7,11 @@
 `Khaki` #ABA194  
   
 `Timberwolf` #CFCBCA
-`Mauveine` #D8DDDE
+`Mauveine` #791E94
 
 ## Fonts
-`Skia`  
+`Comic Sans`
 `Ubuntu`  
 `Arial`  
   
-`Comic Sans`  
+`Skia :'(`  

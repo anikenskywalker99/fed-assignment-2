@@ -6,24 +6,54 @@
     --mauveine: #791E94;
 }
 
-body header nav{
-    background-color: var(--khaki);
-    padding: 0.5rem 0;
+body{
+    font-family: Comic Sans MS, Arial, sans-serif;
+    line-height: 1.5;
+    color: var(--eerie);
+    background-color: var(--timberwolf);
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
 }
 
-    body header nav .flex-container{
-        display: flex;
-        margin: 0;
-        padding: 0;
+    body a {
+        color: var(--neon)
     }
-
-        body header nav .flex-container a{
-            color: var(--eerie);
-            padding: 0 1rem;
-            text-decoration: none;
+    
+        body a:hover {
+            color: var(--mauveine)
         }
 
-            body header nav .flex-container a:hover{
+    body header nav{
+        background-color: var(--khaki);
+        padding: 0.5rem 0;
+    }
+
+        body header nav .flex-container{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: space-between;
+        }
+
+            body header nav .flex-container a{
+                color: var(--neon);
+                padding: 0 1rem;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                body header nav .flex-container a:hover{
+                    color: var(--mauveine);
+                    text-decoration: underline;
+                }
+        
+        #contact-information p{
+            color: var(--neon);
+            text-decoration: underline
+        }
+
+            #contact-information p:hover {
                 color: var(--mauveine);
-                text-decoration: underline;
+                text-decoration: line-through underline;
             }
