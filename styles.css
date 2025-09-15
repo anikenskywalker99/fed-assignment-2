@@ -47,6 +47,26 @@ body{
                     color: var(--mauveine);
                     text-decoration: underline;
                 }
+
+    body header h1,
+    body header p,    
+    .main-content {
+        margin: 2rem auto;
+        width: 80%;
+    }
+
+        #contact-information,
+        #about,
+        #skills,
+        #work-experience,
+        #education,
+        #references {
+            padding: 1.5rem;
+            border: 3px solid var(--eerie);
+            margin-bottom: 1.5rem;
+            box-shadow: 2px 2px 4px var(--khaki), 4px 4px 4px var(--neon);
+        }
+
         
         #contact-information p{
             color: var(--neon);
@@ -57,3 +77,27 @@ body{
                 color: var(--mauveine);
                 text-decoration: line-through underline;
             }
+        
+        #work-experience ul,
+        #education ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            #work-experience li,
+            #education li {
+                padding: 0 0 1rem 0;
+            }
+
+        #skills .flex-container {
+            display: flex;
+            justify-content: wrap;
+        }
+
+            #skills .flex-container div{
+                padding: 0 1rem 0 0;
+            }
+
+footer {
+    text-align: center;
+}
