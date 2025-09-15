@@ -7,7 +7,7 @@
 `Khaki` #ABA194  
   
 `Timberwolf` #CFCBCA
-`Platinum` #D8DDDE
+`Mauveine` #D8DDDE
 
 ## Fonts
 `Skia`  

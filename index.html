@@ -4,15 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Aniken's Resume</title>
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <header>
-            <img src="images/Aniken_Wiens-Shepherd.jpg" alt="Aniken Wiens Shepherd wearing a suit." width="350" height="420" />
-            <!-- The validator recommended to remove the trailing slash, but in the class demonstration it was recommended to keep the trailing slash. That was the sole item in the check that has not been changed, however this was not listed as an error, just a recommendation.-->
+			<nav>
+                <div class="flex-container">
+                    <div><a href="#contact-information">Contact Information</a></div>
+                    <div><a href="#about">About</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#work-experience">Work Experience</a></div>
+                    <div><a href="#education">Education</a></div>
+                    <div><a href="#references">References</a></div>
+                </div>
+			</nav>
             <h1 aria-label="Aniken Wiens Shepherd's Resume">Aniken Wiens Shepherd</h1>
             <p>Application Development and Delivery Student</p>
-        </header>
+		</header>
         <main class="main-content">
+            <section id="photo">
+                <img src="images/Aniken_Wiens-Shepherd.jpg" alt="Aniken Wiens Shepherd wearing a suit." width="350" height="420" />
+                <!-- The validator recommended to remove the trailing slash, but in the class demonstration it was recommended to keep the trailing slash. That was the sole item in the check that has not been changed, however this was not listed as an error, just a recommendation.-->
+            </section>
             <section id="contact-information" aria-label="Aniken's Contact Information">
                 <h2>Contact Information</h2>
                 <h3>Phone</h3>

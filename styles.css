@@ -1,0 +1,29 @@
+:root {
+    --eerie: #222;
+    --neon: #446DF6;
+    --khaki: #ABA194;
+    --timberwolf: #CFCBCA;
+    --mauveine: #791E94;
+}
+
+body header nav{
+    background-color: var(--khaki);
+    padding: 0.5rem 0;
+}
+
+    body header nav .flex-container{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+        body header nav .flex-container a{
+            color: var(--eerie);
+            padding: 0 1rem;
+            text-decoration: none;
+        }
+
+            body header nav .flex-container a:hover{
+                color: var(--mauveine);
+                text-decoration: underline;
+            }
