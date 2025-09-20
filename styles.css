@@ -105,7 +105,6 @@ body{
 
         #skills .flex-container {
             display: flex;
-            justify-content: wrap;
             flex-wrap: wrap;
         }
 
@@ -121,6 +120,10 @@ body{
                 #skills a:hover {
                     color: var(--mauveine)
                 }
+    
+    #photo h2 {
+        display: none;
+    }
 
 footer {
     text-align: center;
