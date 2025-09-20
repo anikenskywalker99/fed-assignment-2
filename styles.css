@@ -113,6 +113,15 @@ body{
                 padding: 0 0.33rem 0 0;
             }
 
+            #skills a {
+                color: var(--eerie);
+                text-decoration: none;
+            }
+
+                #skills a:hover {
+                    color: var(--mauveine)
+                }
+
 footer {
     text-align: center;
 }
