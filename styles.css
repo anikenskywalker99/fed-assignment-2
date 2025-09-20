@@ -47,13 +47,24 @@ body{
                     color: var(--mauveine);
                     text-decoration: underline;
                 }
-
+    
     body header h1,
-    body header p,    
+    body header p{
+        text-align: center;
+    }
+    
+    body header h1,
+    body header p,  
     .main-content {
         margin: 2rem auto;
         width: 80%;
     }
+
+        #photo img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 1.5rem;
+        }
 
         #contact-information,
         #about,
@@ -95,7 +106,7 @@ body{
         }
 
             #skills .flex-container div{
-                padding: 0 1rem 0 0;
+                padding: 0 0.33rem 0 0;
             }
 
 footer {
